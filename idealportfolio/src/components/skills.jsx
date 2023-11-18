@@ -14,12 +14,12 @@ import Favicon from "react-favicon";
 
 const Skills = () => {
   const skills = [
-    { name: 'JavaScript', proficiency: 'Expert', icon: jsIcon },
-    { name: 'React', proficiency: 'Advanced', icon: reactIcon },
+    { name: 'JavaScript', proficiency: 'Intermediate', icon: jsIcon },
+    { name: 'React', proficiency: 'Intermediate', icon: reactIcon },
     { name: 'UI/UX Design', proficiency: 'Intermediate', icon: designIcon },
     { name: 'CSS3', proficiency: 'Advanced', icon: cssIcon },
     { name: 'Tailwind CSS', proficiency: 'Intermediate', icon: tailwindIcon },
-    { name: 'Responsive Design', proficiency: 'Expert', icon: responsiveIcon },
+    { name: 'Responsive Design', proficiency: 'Intermediate', icon: responsiveIcon },
   ];
 
   return (

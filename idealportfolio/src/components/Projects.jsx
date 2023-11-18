@@ -4,14 +4,14 @@ import weathervid from  '../assets/weathervid.mp4'
 import bmivid from '../assets/bmivid.mp4'
 import idealvid from '../assets/idealvid.mp4'
 import Favicon from "react-favicon";
-import ScrollAnimation from 'react-animate-on-scroll';
+
 <Favicon url={truelogo} />
 
 
 
 function Projects() {
   return (
-    <ScrollAnimation animateIn="fadeIn">
+
     <section  id='projects-section'>
     <div className='justify-center text-center font-sans py-11 bg-white text-black w-full h-full drop-shadow-2xl font-bold'>
         <h1 className='text-7xl '>Here Are My Projects!</h1>
@@ -161,7 +161,7 @@ function Projects() {
     </section>
 
 </section>
-</ScrollAnimation>
+
   )
 }
 

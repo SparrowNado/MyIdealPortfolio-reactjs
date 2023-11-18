@@ -3,10 +3,16 @@ import React from 'react'
 import weathervid from  '../assets/weathervid.mp4'
 import bmivid from '../assets/bmivid.mp4'
 import idealvid from '../assets/idealvid.mp4'
+import Favicon from "react-favicon";
+import ScrollAnimation from 'react-animate-on-scroll';
+<Favicon url={truelogo} />
+
+
 
 function Projects() {
   return (
-    <section>
+    <ScrollAnimation animateIn="fadeIn">
+    <section  id='projects-section'>
     <div className='justify-center text-center font-sans py-11 bg-white text-black w-full h-full drop-shadow-2xl font-bold'>
         <h1 className='text-7xl '>Here Are My Projects!</h1>
         <h2 className='text-4xl mt-4'>Check Them out for yourself</h2>
@@ -85,9 +91,9 @@ function Projects() {
 
       <div className='ml-10 mt-4'>
         <h1 className='mb-2  text-4xl font-sans font-medium'>
-                    BMI-Measurer
+                    VeryHard Fitness
         </h1>
-        <p >A Web app that computes your BMI by just inputting your height and weight. A project that showcases the DOM side of javascript</p>
+        <p >A Web app that computes your BMI . A project that showcases the DOM side of javascript</p>
         <div className="flex mb-5   mt-4 md:justify-center">
         <button className=" mt-4  mr-2 hover:underline bg-white text-gray-800 font-bold rounded-full py-4 px-8">
             
@@ -155,6 +161,7 @@ function Projects() {
     </section>
 
 </section>
+</ScrollAnimation>
   )
 }
 

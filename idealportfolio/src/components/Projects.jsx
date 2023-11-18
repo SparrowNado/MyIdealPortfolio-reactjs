@@ -4,8 +4,9 @@ import weathervid from  '../assets/weathervid.mp4'
 import bmivid from '../assets/bmivid.mp4'
 import idealvid from '../assets/idealvid.mp4'
 import Favicon from "react-favicon";
+import truelogo from '../assets/truelogo.png'
 
-<Favicon url={truelogo} />
+<Favicon url={truelogo}/>
 
 
 

@@ -7,6 +7,7 @@ import designIcon from '../assets/icons/design.svg';
 import cssIcon from '../assets/icons/css.svg';
 import tailwindIcon from '../assets/icons/tailwind.svg';
 import responsiveIcon from '../assets/icons/responsive.svg';
+import truelogo from '../assets/truelogo.png'
 
 import Favicon from "react-favicon";
 <Favicon url={truelogo} />

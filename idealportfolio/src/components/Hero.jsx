@@ -4,6 +4,7 @@ import truelogo from '../assets/truelogo.png'
 
 import ReactDOM from "react-dom";
 import Favicon from "react-favicon";
+
 <Favicon url={truelogo} />
 
 function Hero() {

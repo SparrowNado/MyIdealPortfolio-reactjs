@@ -1,10 +1,13 @@
 import React from 'react'
 
-import weathervid from  '../assets/weathervid.mp4'
-import bmivid from '../assets/bmivid.mp4'
-import idealvid from '../assets/idealvid.mp4'
+
+
+
 import Favicon from "react-favicon";
 import truelogo from '../assets/truelogo.png'
+import weatherapp from '../assets/weatherapp.png'
+import bmi from '../assets/bmi.png'
+import ideal from '../assets/ideal.png'
 
 <Favicon url={truelogo}/>
 
@@ -22,30 +25,15 @@ function Projects() {
     <section className='grid gap-0 md:grid-cols-2 md:items-center md:text-left font-sans  bg-black-300 text-white w-full h-full ' >
       
       
-      {/* <div className='justify-center text-center font-sans'> */}
-        {/* <h1 className='text-4xl'>Here Are My Projects!</h1>
-        <h2>Check Them out for yourself</h2>
-      </div> */}
-      
+    
       
       {/* Project 1 */}
-      <div>
-      <video
-        autoPlay
-        loop
-        muted
-        className="w-full h-full object-cover z-0"
-      >
-        <source
-          src={weathervid}
-          type="video/mp4"
-        />
-        Your browser does not support the video tag.
-      </video>
-      </div>
-
+    
 
       
+      <div>
+      <img className='w-full ' src={weatherapp}/>
+      </div>
 
 
       <div className='ml-10 mt-4'>
@@ -71,24 +59,13 @@ function Projects() {
 
 
     {/* Project 2 */}
-    <div>
-      <video
-        autoPlay
-        loop
-        muted
-        className="w-full h-full object-cover z-0"
-      >
-        <source
-          src={bmivid}
-          type="video/mp4"
-        />
-        Your browser does not support the video tag.
-      </video>
-      </div>
+  
 
 
       
-
+      <div>
+      <img className='w-full ' src={bmi}/>
+      </div>
 
       <div className='ml-10 mt-4'>
         <h1 className='mb-2  text-4xl font-sans font-medium'>
@@ -113,24 +90,12 @@ function Projects() {
 
 
 
-      <div>
-      <video
-        autoPlay
-        loop
-        muted
-        className="w-full h-full object-cover z-0"
-      >
-        <source
-          src={idealvid}
-          type="video/mp4"
-        />
-        Your browser does not support the video tag.
-      </video>
-      </div>
 
 
       
-
+      <div>
+      <img className='w-full ' src={ideal}/>
+      </div>
       {/* Project 3 */}
       <div className='ml-10 mt-4'>
         <h1 className='mb-2  text-4xl font-sans font-medium'>

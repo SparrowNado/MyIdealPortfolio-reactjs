@@ -3,8 +3,8 @@ import { useState } from 'react'
 import './App.css'
 import Navbartop from './Components/Navbartop'
 import Hero from './components/Hero'
-import Projects from './components/projects'
-import Skills from './components/skills'
+import Projects from './components/Projects'
+import Skills from './components/Skills'
 import WebFooter from './components/WebFooter'
 
 

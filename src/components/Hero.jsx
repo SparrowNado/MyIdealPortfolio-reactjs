@@ -4,6 +4,7 @@ import truelogo from '../assets/truelogo.png'
 
 
 import Favicon from "react-favicon";
+import videobg2 from "../assets/videobg2.mp4"
 
 <Favicon url={truelogo} />
 
@@ -16,6 +17,20 @@ function Hero() {
     id="hero-section"
     className="relative w-screen h-screen text-white overflow-hidden z-0 bg-black-300"
   >
+
+        <video
+        autoPlay
+        loop
+        muted
+        className="absolute top-0 left-0 w-full h-full object-cover z-0 blur-sm"
+      >
+        <source
+          src={videobg2}
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video> 
+
     <Favicon url={truelogo} />
   
     {/* Content Overlay */}

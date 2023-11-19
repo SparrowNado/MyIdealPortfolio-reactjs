@@ -72,8 +72,8 @@ function Projects() {
                     VeryHard Fitness
         </h1>
         <p >A Web app that computes your BMI . A project that showcases the DOM side of javascript</p>
-        <div className="flex mb-5   mt-4 md:justify-center">
-        <button className=" mt-4  mr-2 hover:underline bg-white text-gray-800 font-bold rounded-full py-4 px-8">
+        <div className="flex mb-5   mt-4 md:justify-center ">
+        <button className=" mt-4  mr-2 hover:underline bg-white    text-gray-800 font-bold rounded-full py-4 px-8">
             
         <a href='https://github.com/SparrowNado/BMI-Measurer'> Check The Repo</a>
             

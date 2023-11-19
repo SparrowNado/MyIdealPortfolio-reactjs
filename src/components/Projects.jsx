@@ -1,4 +1,5 @@
 import React from 'react'
+import weathervid from '../assets/weathervid.mp4'
 
 
 
@@ -28,12 +29,27 @@ function Projects() {
     
       
       {/* Project 1 */}
-    
 
-      
+     
+      <div>
+      <video
+        autoPlay
+        loop
+        muted
+        className="w-full h-full object-cover z-0"
+      >
+        <source
+          src={weathervid}
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
+      </div>
+
+{/*       
       <div>
       <img className='w-full ' src={weatherapp}/>
-      </div>
+      </div> */}
 
 
       <div className='ml-10 mt-4'>
@@ -60,7 +76,7 @@ function Projects() {
 
     {/* Project 2 */}
   
-
+      
 
       
       <div>

@@ -2,7 +2,7 @@ import React from 'react'
 import weathervid from '../assets/weathervid.mp4'
 import bmivid from '../assets/bmivid.mp4'
 
-
+import idealvid from '../assets/idealvid.mp4'
 
 import Favicon from "react-favicon";
 import truelogo from '../assets/truelogo.png'
@@ -119,12 +119,27 @@ function Projects() {
 
 
 
-
+      <div>
+      <video
+        autoPlay
+        loop
+        muted
+        className="w-full h-full object-cover z-0"
+      >
+        <source
+          src={idealvid}
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
+      </div>
 
       
-      <div>
+      {/* <div>
       <img className='w-full ' src={ideal}/>
-      </div>
+      </div> */}
+
+      
       {/* Project 3 */}
       <div className='ml-10 mt-4'>
         <h1 className='mb-2  text-4xl font-sans font-medium'>

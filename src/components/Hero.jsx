@@ -98,7 +98,7 @@ function Hero() {
         <div className="flex items-center">
           <button
             
-            className="mt-4 hover:underline bg-black-300 text-white font-bold rounded-full py-4 px-8"
+            className="mt-4 hover:underline bg-black-300 text-white font-bold rounded-full py-4 px-8 shadow-2xl"
           >
 
             <a href='https://github.com/SparrowNado'> Check My GitHub</a>

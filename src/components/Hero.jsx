@@ -1,6 +1,7 @@
 import React from 'react'
 
 import truelogo from '../assets/truelogo.png'
+import me from '../assets/me.jpg'
 
 
 import Favicon from "react-favicon";
@@ -13,49 +14,66 @@ function Hero() {
 
 
   return (
-    <div
-    id="hero-section"
-    className="relative w-screen h-screen text-white overflow-hidden z-0 bg-black-300"
-  >
 
-        <video
-        autoPlay
-        loop
-        muted
-        className="absolute top-0 left-0 w-full h-full object-cover z-0 blur-sm"
+    <div className="relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0  mx-9   ">
+      <div className='absolute left-0  hidden md:block  '>
+        <br>
+        </br>
+        <br></br><br></br>
+        <br></br>
+        <br></br>
+      <img className='w-80 rounded-md shadow-2xl    align-middle' src='https://cdn.discordapp.com/attachments/1062017275105906699/1175891349116039279/368314821_1075250270261349_3662192644613691592_n.jpg?ex=656ce128&is=655a6c28&hm=3785b9b37c554f28f1367d6e476314d01c53f37cfc037625dca8a513b3c98836&' />
+      </div>
+    <div className="inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0">
+      <svg
+        className="absolute left-0 hidden h-full text-white transform -translate-x-1/2 lg:block"
+        viewBox="0 0 100 100"
+        fill="currentColor"
+        preserveAspectRatio="none slice"
       >
-        <source
-          src={videobg2}
-          type="video/mp4"
-        />
-        Your browser does not support the video tag.
-      </video> 
-
-    <Favicon url={truelogo} />
-  
-    {/* Content Overlay */}
-    <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
-  
-    {/* Content */}
-    <div className="relative container mx-auto flex px-4 sm:px-8 py-16 sm:py-32 text-white sm:text-base align-middle items-center justify-center flex-col">
-      <div className="text-center lg:w-5/12 w-full">
-        <h1 className="my-2 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
-          I am
-        </h1>
-        <h1 className="my-2 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight sm:leading-snug">
-          Gabriel D. Ramoso
-        </h1>
-        <h2 className="text-xl sm:text-2xl md:text-3xl mb-4 md:mb-6 lg:mb-8 font-bold">
-          An aspiring Front End / Web Developer
-        </h2>
-        <p className="text-lg sm:text-xl md:text-2xl mb-4 md:mb-6 lg:mb-8 font-bold">
-          Working hard every day to get better at my craft
+        <path d="M50 0H100L50 100H0L50 0Z" />
+      </svg>
+      <video
+      autoPlay
+      loop
+      muted
+      className="w-full h-full object-cover z-0 sm:rounded-lg   "
+    >
+      <source
+        src={videobg2}
+        type="video/mp4"
+      />
+      Your browser does not support the video tag.
+    </video>
+    </div>
+    <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
+      <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
+        <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+          
         </p>
-  
-        <div className="flex justify-center mx-auto">
-          <button className="hover:underline bg-white text-gray-800 font-bold rounded-full py-3 px-6 sm:py-4 sm:px-8 transform hover:scale-105 duration-300 no-underline">
-            <a href="https://github.com/SparrowNado">Check My Github</a>
+        <h2 className='mb-0 font-sans text-3xl font-bold tracking-tight text-white-300 sm:text-4xl sm:leading-none'>
+        I am
+        </h2>
+       
+        <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-white-300 sm:text-4xl sm:leading-none">
+          
+         
+           Christian Gabriel D. Ramoso
+         
+        </h2>
+        <h3 className="pr-5 mb-5 text-base text-black-300 md:text-lg">
+         A aspiring Front End Developer / Web Developer eager to get into the industry.
+        </h3>
+        <div className="flex items-center">
+          <button
+            
+            className="mt-4 hover:underline bg-black-300 text-white font-bold rounded-full py-4 px-8"
+          >
+
+            <a href='https://github.com/SparrowNado'> Check My GitHub</a>
+            
           </button>
+         
         </div>
       </div>
     </div>

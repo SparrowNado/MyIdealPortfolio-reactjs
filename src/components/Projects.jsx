@@ -19,8 +19,8 @@ function Projects() {
 
     <section  id='projects-section' >
     <div className='justify-center text-center font-sans py-11 bg-white text-black w-full h-full drop-shadow-2xl font-bold'>
-        <h1 className='text-7xl '>Here Are My Projects!</h1>
-        <h2 className='text-4xl mt-4'>Check Them out for yourself</h2>
+        <h1 className='text-7xl '>My Recent Projects</h1>
+      
       </div>
       
     <section className='grid gap-0 md:grid-cols-2 md:items-center md:text-left font-sans  bg-black-300 text-white w-full h-full  ' >

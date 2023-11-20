@@ -15,13 +15,28 @@ function Hero() {
 
   return (
 
-    <div className="relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0 mx-9 min-h-screen  sm:max-h-screen ">
+    <div className="relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0 mx-9 min-h-screen  sm:max-h-screen  ">
       <div className='absolute left-0  hidden md:block  '>
-        <br>
+      <br>
         </br>
         <br></br><br></br>
         <br></br>
         <br></br>
+
+        <br>
+        </br>
+        <br>
+        </br>
+        <br>
+        </br>
+        <br>
+        </br>
+        <br>
+        </br>
+        <br>
+        </br>
+        
+
       <img className='w-80 rounded-md shadow-2xl    align-middle' src='https://cdn.discordapp.com/attachments/1062017275105906699/1175891349116039279/368314821_1075250270261349_3662192644613691592_n.jpg?ex=656ce128&is=655a6c28&hm=3785b9b37c554f28f1367d6e476314d01c53f37cfc037625dca8a513b3c98836&' />
       </div>
     <div className="inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0">
@@ -47,14 +62,30 @@ function Hero() {
     </video>
     </div>
     <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
-      <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
+    <br>
+        </br>
+        <br></br><br></br>
+        <br></br>
+        <br></br>
+
+        <br>
+        </br>
+        
+
+        
+   
+        
+      <div className="  mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
         <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
           
         </p>
-        <h2 className='mb-0 font-sans text-3xl font-bold tracking-tight text-white-300 sm:text-4xl sm:leading-none'>
-        I am
+      
+        <h2 className='mb-0 font-sans text-3xl font-bold tracking-tight text-white-300 sm:text-4xl sm:leading-none text-left sm:text-center'>
+        Hello, it's Me !
         </h2>
-       
+        
+        <br>
+        </br>
         <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-white-300 sm:text-4xl sm:leading-none">
           
          

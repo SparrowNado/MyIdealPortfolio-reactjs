@@ -13,7 +13,7 @@ const Navbartop = () => {
   let [open, setOpen] = useState(false);
 
   return (
-    <div className="w-full fixed top-0 left-0 z-30 border-b-4 border-t-4 border-r-4 border-l-4 border-black-300 ">
+    <div className="w-full fixed top-0 left-0 z-30 border-b-4   border-black-300 ">
       <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
         {/* logo section */}
         <div className="font-bold text-2xl cursor-pointer flex items-center gap-1 text-black-300  ">

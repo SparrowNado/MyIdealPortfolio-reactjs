@@ -16,7 +16,7 @@ function Hero() {
   return (
 
     <div className="relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0 mx-9 min-h-screen  sm:max-h-screen  ">
-      <div className='absolute left-0  hidden md:block  '>
+      <div className='absolute left-0  hidden md:block  lg:hidden sm:hidden   xl:block  '>
       <br>
         </br>
         <br></br><br></br>
@@ -52,7 +52,7 @@ function Hero() {
       autoPlay
       loop
       muted
-      className="w-full h-full object-cover z-0 sm:rounded-lg   "
+      className="w-full h-full object-cover z-0 sm:rounded-lg  block md:block  sm:block  xl:block  "
     >
       <source
         src={videobg2}
@@ -75,7 +75,7 @@ function Hero() {
         
    
         
-      <div className="  mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
+      <div className="  mb-16 lg:my-40 lg:max-w-lg lg:pr-5 px-7 content-normal  lg:content-center   ">
         <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
           
         </p>

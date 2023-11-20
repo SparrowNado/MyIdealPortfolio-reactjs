@@ -93,7 +93,7 @@ function Hero() {
          
         </h2>
         <h3 className="pr-5 mb-5 text-base text-black-300 md:text-lg">
-         A aspiring Front End Developer / Web Developer eager to get into the industry.
+        Aspiring Front End Developer and Web Enthusiast, fueled by a passion for crafting captivating digital experiences. Ready to redefine the web landscape with creativity and code.
         </h3>
         <div className="flex items-center">
           <button

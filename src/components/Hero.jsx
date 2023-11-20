@@ -15,7 +15,7 @@ function Hero() {
 
   return (
 
-    <div className="relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0  mx-9   ">
+    <div className="relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0 mx-9 min-h-screen  sm:max-h-screen ">
       <div className='absolute left-0  hidden md:block  '>
         <br>
         </br>

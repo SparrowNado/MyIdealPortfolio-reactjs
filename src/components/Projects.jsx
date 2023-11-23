@@ -6,9 +6,7 @@ import idealvid from '../assets/idealvid.mp4'
 
 import Favicon from "react-favicon";
 import truelogo from '../assets/truelogo.png'
-import weatherapp from '../assets/weatherapp.png'
-import bmi from '../assets/bmi.png'
-import ideal from '../assets/ideal.png'
+
 
 <Favicon url={truelogo}/>
 

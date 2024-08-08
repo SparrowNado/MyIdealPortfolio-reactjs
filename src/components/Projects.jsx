@@ -1,6 +1,7 @@
 import React from 'react'
 import weathervid from '../assets/weathervid.mp4'
 import bmivid from '../assets/bmivid.mp4'
+import crypto from '../assets/crypto.mp4'
 
 import idealvid from '../assets/idealvid.mp4'
 
@@ -82,7 +83,7 @@ function Projects() {
         className="w-full h-full object-cover z-0"
       >
         <source
-          src={bmivid}
+          src={crypto}
           type="video/mp4"
         />
         Your browser does not support the video tag.
@@ -96,18 +97,18 @@ function Projects() {
 
       <div className='ml-10 mt-4'>
         <h1 className='mb-2  text-4xl font-sans font-medium'>
-                    VeryHard Fitness
+                    CryptoHunters
         </h1>
-        <p >A Web app that computes your BMI . A project that showcases the DOM side of javascript</p>
+        <p >A Web app that tracks cryptoprices through a API Made with HTML CSS and PHP (Requires XAMPP)</p>
         <div className="flex mb-5   mt-4 md:justify-center ">
         <button className=" mt-4  mr-2 hover:underline bg-white    text-gray-800 font-bold rounded-full py-4 px-8">
             
-        <a href='https://github.com/SparrowNado/BMI-Measurer'> Check The Repo</a>
+        <a href='https://github.com/SparrowNado/Cryptohunters-HTML-CSS-Version'> Check The Repo</a>
             
             
         </button>
         <button className="mt-4 hover:underline bg-white text-gray-800 font-bold rounded-full py-4 px-8">
-            <a href='https://sparrownado.github.io/BMI-Measurer/'> Live Demo</a>
+            <a href='https://sparrownado.github.io/Cryptohunters-HTML-CSS-Version/'> Live Demo</a>
             
            
         </button>

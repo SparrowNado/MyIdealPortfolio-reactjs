@@ -2,6 +2,7 @@ import React from 'react'
 
 import truelogo from '../assets/truelogo.png'
 import me from '../assets/me.jpg'
+import ramoso from '../assets/ramoso.jpg'
 
 
 import Favicon from "react-favicon";
@@ -37,7 +38,7 @@ function Hero() {
         </br>
         
 
-      <img className='w-80 rounded-md shadow-2xl    align-middle' src='https://cdn.discordapp.com/attachments/1062017275105906699/1175891349116039279/368314821_1075250270261349_3662192644613691592_n.jpg?ex=656ce128&is=655a6c28&hm=3785b9b37c554f28f1367d6e476314d01c53f37cfc037625dca8a513b3c98836&' />
+      <img className='w-80 rounded-md shadow-2xl    align-middle' src={ramoso} />
       </div>
     <div className="inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0">
       <svg

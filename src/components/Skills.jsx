@@ -1,16 +1,17 @@
 import React from 'react';
 
-
 import jsIcon from '../assets/icons/js.svg';
 import reactIcon from '../assets/icons/react.svg';
 import designIcon from '../assets/icons/design.svg';
 import cssIcon from '../assets/icons/css.svg';
 import tailwindIcon from '../assets/icons/tailwind.svg';
 import responsiveIcon from '../assets/icons/responsive.svg';
-import truelogo from '../assets/truelogo.png'
 
-import Favicon from "react-favicon";
-<Favicon url={truelogo} />
+const proficiencyLevels = {
+  Beginner: 33,
+  Intermediate: 66,
+  Advanced: 100,
+};
 
 const Skills = () => {
   const skills = [
@@ -18,29 +19,79 @@ const Skills = () => {
     { name: 'React', proficiency: 'Intermediate', icon: reactIcon },
     { name: 'UI/UX Design', proficiency: 'Intermediate', icon: designIcon },
     { name: 'CSS3', proficiency: 'Advanced', icon: cssIcon },
-    { name: 'Tailwind CSS', proficiency: 'Intermediate', icon: tailwindIcon },
-    { name: 'Responsive Design', proficiency: 'Intermediate', icon: responsiveIcon },
+    { name: 'Tailwind CSS', proficiency: 'Advanced', icon: tailwindIcon },
+    { name: 'Responsive Design', proficiency: 'Advanced', icon: responsiveIcon },
   ];
 
   return (
-    <div  id='skills-section' className=" p-8  shadow-lg font-sans   bg-black-300">
-
-
-
-      <h2 className="text-3xl font-bold text-white mb-6 text-center ">Skills</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {skills.map((skill, index) => (
-          <div
-            key={index}
-            className="bg-white p-6 rounded-lg transition transform hover:scale-105 duration-300 "
-          >
-            <h3 className="text-xl font-semibold mb-2 text-black-300 ">{skill.name}</h3>
-            <p className="text-black-300">{`Proficiency: ${skill.proficiency}`}</p>
-            
-          </div>
-        ))}
+    <section
+      id="skills-section"
+      className="relative bg-black-300 py-24 px-7 md:px-10 overflow-hidden"
+    >
+      {/* Ghost heading */}
+      <div className="absolute inset-0 flex items-start justify-center pointer-events-none select-none pt-8">
+        <h2 className="text-[14vw] lg:text-[10vw] font-black text-white/[0.03] tracking-tighter leading-none whitespace-nowrap">
+          SKILLS
+        </h2>
       </div>
-    </div>
+
+      <div className="relative z-10 max-w-6xl mx-auto">
+        {/* Section header */}
+        <div className="flex items-center justify-between mb-16 flex-wrap gap-4">
+          <div>
+            <p className="text-teal-accent-400 font-mono text-sm tracking-widest uppercase mb-2">
+              [ Toolkit ]
+            </p>
+            <h2 className="text-4xl sm:text-5xl font-bold text-white">
+              Skills & Stack
+            </h2>
+          </div>
+          <span className="text-white/30 font-mono text-sm">
+            {String(skills.length).padStart(2, '0')} skills
+          </span>
+        </div>
+
+        {/* Skill grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          {skills.map((skill, index) => (
+            <div
+              key={index}
+              className="group border border-white/10 hover:border-teal-accent-400/50 bg-white/[0.02] hover:bg-white/[0.04] transition-colors duration-300 p-6"
+            >
+              <div className="flex items-center justify-between mb-4">
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 flex items-center justify-center bg-white/5 group-hover:bg-teal-accent-400/10 transition-colors duration-300">
+                    <img src={skill.icon} alt={`${skill.name} icon`} className="w-5 h-5" />
+                  </div>
+                  <h3 className="text-lg font-bold text-white group-hover:text-teal-accent-400 transition-colors duration-300">
+                    {skill.name}
+                  </h3>
+                </div>
+                <span className="text-white/20 font-mono text-xs">
+                  {String(index + 1).padStart(2, '0')}
+                </span>
+              </div>
+
+              <div className="flex items-center justify-between mb-2">
+                <span className="text-white/40 font-mono text-xs tracking-widest uppercase">
+                  {skill.proficiency}
+                </span>
+                <span className="text-teal-accent-400 font-mono text-xs">
+                  {proficiencyLevels[skill.proficiency]}%
+                </span>
+              </div>
+
+              <div className="w-full h-[3px] bg-white/10 overflow-hidden">
+                <div
+                  className="h-full bg-teal-accent-400 transition-all duration-700 ease-out"
+                  style={{ width: `${proficiencyLevels[skill.proficiency]}%` }}
+                />
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
   );
 };
 

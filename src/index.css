@@ -73,15 +73,17 @@ button:focus-visible {
 } */
 
 
-
-*{
+* {
   padding: 0;
   box-sizing: border-box;
 }
 
-
-
-
+body {
+  font-family: "Space Grotesk", sans-serif;
+  background-color: #000000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
 ::-webkit-scrollbar {
   display: none;

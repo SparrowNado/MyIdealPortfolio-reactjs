@@ -36,8 +36,7 @@ function Hero() {
             </span> */}
           </div>
         </div>
-
-        {/* Main content: text + photo card side by side */}
+ 
         <div className="flex flex-col lg:flex-row items-end justify-between gap-12">
           <div className="max-w-2xl">
             <p className="text-teal-accent-400 font-mono text-lg mb-3">Hi, my name is</p>
@@ -86,7 +85,7 @@ function Hero() {
             </div>
           </div>
 
-          {/* Floating photo card with video peeking behind it */}
+ 
           <div className="relative flex-shrink-0 hidden sm:block">
             <div className="absolute -top-6 -left-6 w-full h-full border-2 border-teal-accent-400/50" />
             <div className="relative w-64 lg:w-72 aspect-[3/4] overflow-hidden">
